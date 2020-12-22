@@ -23,7 +23,7 @@
   <body>
     <div class="container">
       <div class="row row-cols">
-        <div class="col-2 time">9:00am</div>
+        <div class="col-2 time" id="9input">9:00am</div>
         <div class="col-9">
           <div class="input-group mb-3">
             <input
@@ -35,9 +35,11 @@
           </div>
         </div>
         <div class="col-1">
-          <i class="fas fa-save save"></i>
+            <button type="button" class="btn btn-secondary">
+                <i class="fas fa-save save"></i>
+            </button>
         </div>
-        <div class="col-2 time">10:00am</div>
+        <div class="col-2 time" id="10input">10:00am</div>
         <div class="col-9">
           <div class="input-group mb-3">
             <input
@@ -49,9 +51,11 @@
           </div>
         </div>
         <div class="col-1">
-          <i class="fas fa-save save"></i>
+            <button type="button" class="btn btn-secondary">
+                <i class="fas fa-save save"></i>
+            </button>
         </div>
-        <div class="col-2 time">11:00am</div>
+        <div class="col-2 time" id="11input">11:00am</div>
         <div class="col-9">
           <div class="input-group mb-3">
             <input
@@ -63,9 +67,11 @@
           </div>
         </div>
         <div class="col-1">
-          <i class="fas fa-save save"></i>
+            <button type="button" class="btn btn-secondary">
+                <i class="fas fa-save save"></i>
+            </button>
         </div>
-        <div class="col-2 time">12:00pm</div>
+        <div class="col-2 time" id="12input">12:00pm</div>
         <div class="col-9">
           <div class="input-group mb-3">
             <input
@@ -77,9 +83,11 @@
           </div>
         </div>
         <div class="col-1">
-          <i class="fas fa-save save"></i>
+            <button type="button" class="btn btn-secondary">
+                <i class="fas fa-save save"></i>
+            </button>
         </div>
-        <div class="col-2 time">1:00pm</div>
+        <div class="col-2 time" id="1input">1:00pm</div>
         <div class="col-9">
           <div class="input-group mb-3">
             <input
@@ -91,9 +99,11 @@
           </div>
         </div>
         <div class="col-1">
-          <i class="fas fa-save save"></i>
+            <button type="button" class="btn btn-secondary">
+                <i class="fas fa-save save"></i>
+            </button>
         </div>
-        <div class="col-2 time">2:00pm</div>
+        <div class="col-2 time" id="2input">2:00pm</div>
         <div class="col-9">
           <div class="input-group mb-3">
             <input
@@ -105,9 +115,11 @@
           </div>
         </div>
         <div class="col-1">
-          <i class="fas fa-save save"></i>
+            <button type="button" class="btn btn-secondary">
+                <i class="fas fa-save save"></i>
+            </button>
         </div>
-        <div class="col-2 time">3:00pm</div>
+        <div class="col-2 time" id="3input">3:00pm</div>
         <div class="col-9">
           <div class="input-group mb-3">
             <input
@@ -119,9 +131,11 @@
           </div>
         </div>
         <div class="col-1">
-          <i class="fas fa-save save"></i>
+            <button type="button" class="btn btn-secondary">
+                <i class="fas fa-save save"></i>
+            </button>
         </div>
-        <div class="col-2 time">4:00pm</div>
+        <div class="col-2 time" id="4input">4:00pm</div>
         <div class="col-9">
           <div class="input-group mb-3">
             <input
@@ -133,9 +147,11 @@
           </div>
         </div>
         <div class="col-1">
-          <i class="fas fa-save save"></i>
+            <button type="button" class="btn btn-secondary">
+                <i class="fas fa-save save"></i>
+            </button>
         </div>
-        <div class="col-2 time">5:00pm</div>
+        <div class="col-2 time" id="5input">5:00pm</div>
         <div class="col-9">
           <div class="input-group mb-3">
             <input
@@ -147,12 +163,17 @@
           </div>
         </div>
         <div class="col-1">
-          <i class="fas fa-save save"></i>
+            <button type="button" class="btn btn-secondary">
+                <i class="fas fa-save save"></i>
+            </button>
         </div>
       </div>
     </div>
 
     <script src="Moment.js"></script>
     <script src="script.js"></script>
+    <script>
+        moment().format();
+    </script>
   </body>
 </html>
