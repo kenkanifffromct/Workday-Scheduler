@@ -1,12 +1,12 @@
 $(document).ready(function () {
-    //display current day
+
     var day = moment().format("MMMM Do YYYY, h:mm:ss a");
     console.log(day);
+
     $("#today").append(day);
     var time = parseInt(moment().format("HH"));
     
   
-    //adding text var, corrected typo
     var nine = $("#9input");
     var ten = $("#10input");
     var eleven = $("#11input");
@@ -17,7 +17,6 @@ $(document).ready(function () {
     var four = $("#4input");
     var five = $("#5input");
   
-    //colors
   
     $(".form-control").each(function () {
       var name = parseInt($(this).attr("name"));
@@ -34,7 +33,6 @@ $(document).ready(function () {
       }
     });
   
-    //event saved to local
     $("button").on("click", function () {
       localStorage.setItem("9:00am", nine.val());
       localStorage.setItem("10:00am", ten.val());
@@ -47,7 +45,6 @@ $(document).ready(function () {
       localStorage.setItem("5:00pm", five.val());
     });
   
-    //event persists when saved
     $("#9input").append(localStorage.getItem("9:00am"));
     $("#10input").append(localStorage.getItem("10:00am"));
     $("#11input").append(localStorage.getItem("11:00am"));
