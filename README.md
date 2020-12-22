@@ -12,6 +12,7 @@ https://kenkanifffromct.github.io/Workday-Scheduler/
 
 ### Credits:
 [Jason Gibson](https://github.com/jgibsone4)
+
 [JK Royston](https://github.com/jxhnkndl)
 
 
