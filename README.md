@@ -7,3 +7,13 @@ The goal here was simple. We had to create a workday planner so the user can add
 
 ### Deployed Link:
 https://kenkanifffromct.github.io/Workday-Scheduler/
+
+
+
+### Credits:
+[Jason Gibson](https://github.com/jgibsone4)
+[JK Royston](https://github.com/jxhnkndl)
+
+
+
+![App Preview](Screenshot_(100).png)
